@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1721671837 source:c:\users\arm allidina\documents\map\map.cc
+	<iostream>
+	<string>
+	<map>
+	<vector>
+	<cctype>
+	<algorithm>
+	<iomanip>
+
