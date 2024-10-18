@@ -16,8 +16,10 @@ int main(){
    cout<<"enter words(done when finished entering)"<<endl;
    while(word!="done"){
         cin>>word;
-        transform(word.begin(),word.end(),word.begin(),lower);
-        frequency[word]++;
+        if(word!="done"){
+            transform(word.begin(),word.end(),word.begin(),lower);
+            frequency[word]++;
+        }
     }
     cout<<"alphabetical order"<<endl;
     printMap(frequency);
